@@ -672,6 +672,10 @@ class Wsfe extends InvoiceWebService
 
     public function getAvailablePosNumbers(): array
     {
+        if ($this->service->isSandbox()) {
+            return [$this->datos->puntoVenta];
+        }
+
         $pos_numbers = [];
         $result = $this->FEParamGetPtosVenta();
 

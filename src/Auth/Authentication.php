@@ -117,4 +117,8 @@ class Authentication
 
         return $authRequest;
     }
+
+    public function isSandbox(): bool {
+        return $this->configuracion->sandbox;
+    }
 }
