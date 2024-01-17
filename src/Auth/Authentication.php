@@ -26,13 +26,14 @@ class Authentication
     /** @var array|stdClass|string */
     public $authRequest;
     /** @var SoapClient */
-    public $client;
+    private $sandbox = true;
 
     // Authentication constructor.
     public function __construct(AfipConfig $newConf, string $ws)
     {
         $conf = AfipWebService::setConfig($newConf);
         $this->configuracion = json_decode(json_encode($conf));
+        $this->sandbox = $newConf->sandbox;
 
         $this->auth($ws);
     }
@@ -118,7 +119,8 @@ class Authentication
         return $authRequest;
     }
 
-    public function isSandbox(): bool {
-        return $this->configuracion->sandbox;
+    public function isSandbox(): bool
+    {
+        return $this->sandbox;
     }
 }
