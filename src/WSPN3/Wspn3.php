@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\WSPN3;
+namespace Maperx\WSPN3;
 
 use Multinexo\Auth\Authentication;
 use Multinexo\Exceptions\ManejadorResultados;

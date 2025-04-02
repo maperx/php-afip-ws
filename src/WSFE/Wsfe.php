@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,20 +9,20 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\WSFE;
+namespace Maperx\WSFE;
 
-use Multinexo\AfipValues\IdCodes;
-use Multinexo\Auth\Authentication;
-use Multinexo\Exceptions\AfipUnavailableServiceException;
-use Multinexo\Exceptions\AfipUnhandledException;
-use Multinexo\Exceptions\ManejadorResultados;
-use Multinexo\Exceptions\WsException;
-use Multinexo\Models\AfipConfig;
-use Multinexo\Models\InvoiceWebService;
-use Multinexo\Models\Validaciones;
-use Multinexo\Objects\AssociatedDocumentObject;
-use Multinexo\Objects\InvoiceObject;
-use Multinexo\Objects\InvoiceResultObject;
+use Maperx\AfipValues\IdCodes;
+use Maperx\Auth\Authentication;
+use Maperx\Exceptions\AfipUnavailableServiceException;
+use Maperx\Exceptions\AfipUnhandledException;
+use Maperx\Exceptions\ManejadorResultados;
+use Maperx\Exceptions\WsException;
+use Maperx\Models\AfipConfig;
+use Maperx\Models\InvoiceWebService;
+use Maperx\Models\Validaciones;
+use Maperx\Objects\AssociatedDocumentObject;
+use Maperx\Objects\InvoiceObject;
+use Maperx\Objects\InvoiceResultObject;
 use SoapClient;
 use stdClass;
 

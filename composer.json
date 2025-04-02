@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Multinexo\\": "src/"
+            "Maperx\\": "src/"
         },
         "exclude-from-classmap": [
             "/tests/"

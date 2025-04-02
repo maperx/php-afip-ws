@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\WSAA;
+namespace Maperx\WSAA;
 
 use Multinexo\Exceptions\WsException;
 use Multinexo\Models\GeneralHelper;
@@ -58,8 +59,8 @@ class Wsaa
     {
         $TRA = new SimpleXMLElement(
             '<?xml version="1.0" encoding="UTF-8"?>' .
-            '<loginTicketRequest version="1.0">' .
-            '</loginTicketRequest>'
+                '<loginTicketRequest version="1.0">' .
+                '</loginTicketRequest>'
         );
         $TRA->addChild('header');
         $TRA->header->addChild('uniqueId', date('U'));
