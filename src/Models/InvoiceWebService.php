@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,12 +9,12 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Models;
+namespace Maperx\Models;
 
-use Multinexo\AfipWebServiceInterface;
-use Multinexo\Auth\Authentication;
-use Multinexo\Exceptions\ManejadorResultados;
-use Multinexo\Objects\InvoiceObject;
+use Maperx\AfipWebServiceInterface;
+use Maperx\Auth\Authentication;
+use Maperx\Exceptions\ManejadorResultados;
+use Maperx\Objects\InvoiceObject;
 
 abstract class InvoiceWebService implements InvoiceInterface, AfipWebServiceInterface
 {

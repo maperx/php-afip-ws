@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,8 +9,6 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Exceptions;
+namespace Maperx\Exceptions;
 
-class ValidationException extends \Exception
-{
-}
+class ValidationException extends \Exception {}

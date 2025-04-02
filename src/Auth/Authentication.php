@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Maperx\Auth;
 
-use Multinexo\Exceptions\WsException;
-use Multinexo\Models\AfipConfig;
-use Multinexo\Models\AfipWebService;
-use Multinexo\WSAA\Wsaa;
+use Maperx\Exceptions\WsException;
+use Maperx\Models\AfipConfig;
+use Maperx\Models\AfipWebService;
+use Maperx\WSAA\Wsaa;
 use SoapClient;
 use stdClass;
 

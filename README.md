@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-composer require multinexo/php-afip-ws
+composer require Maperx/php-afip-ws
 ```
 
 ## Usage

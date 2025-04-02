@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Models;
+namespace Maperx\Models;
 
 class CSRFile
 {
@@ -25,7 +26,7 @@ class CSRFile
         string $business_name,
         int $business_cuit,
         string $privatekey_path,
-        string $app_name = 'Multinexo library'
+        string $app_name = 'Maperx library'
     ) {
         $this->business_name = $business_name;
         $this->business_cuit = $business_cuit;

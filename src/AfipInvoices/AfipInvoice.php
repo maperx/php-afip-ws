@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Maperx\AfipInvoices;
 
-use Multinexo\AfipValues\IdCodes;
-use Multinexo\AfipValues\ReceiptCodes;
-use Multinexo\Models\AfipConfig;
-use Multinexo\WSMTXCA\AfipResult;
-use Multinexo\WSMTXCA\Wsmtxca;
+use Maperx\AfipValues\IdCodes;
+use Maperx\AfipValues\ReceiptCodes;
+use Maperx\Models\AfipConfig;
+use Maperx\WSMTXCA\AfipResult;
+use Maperx\WSMTXCA\Wsmtxca;
 
 /**
  * @deprecated

@@ -11,13 +11,13 @@ declare(strict_types=1);
 
 namespace Maperx\WSMTXCA;
 
-use Multinexo\AfipValues\ReceiptCodes;
-use Multinexo\Exceptions\ManejadorResultados;
-use Multinexo\Exceptions\WsException;
-use Multinexo\Models\AfipConfig;
-use Multinexo\Models\InvoiceWebService;
-use Multinexo\Models\Validaciones;
-use Multinexo\Objects\InvoiceResultObject;
+use Maperx\AfipValues\ReceiptCodes;
+use Maperx\Exceptions\ManejadorResultados;
+use Maperx\Exceptions\WsException;
+use Maperx\Models\AfipConfig;
+use Maperx\Models\InvoiceWebService;
+use Maperx\Models\Validaciones;
+use Maperx\Objects\InvoiceResultObject;
 use stdClass;
 
 /**
@@ -96,7 +96,7 @@ class Wsmtxca extends InvoiceWebService
      * Permite consultar  la  información  correspondiente  a  un  CAEA  previamente  otorgado.
      *
      * @throws WsException
-     * @throws \Multinexo\Exceptions\ValidationException
+     * @throws \Maperx\Exceptions\ValidationException
      */
     public function getCAEA(stdClass $data): stdClass
     {
@@ -119,7 +119,7 @@ class Wsmtxca extends InvoiceWebService
      * Permite consultar  la  información  correspondiente  a  un  CAEA  previamente  otorgado entre un rango de fechas.
      *
      * @throws WsException
-     * @throws \Multinexo\Exceptions\ValidationException
+     * @throws \Maperx\Exceptions\ValidationException
      */
     public function consultarCAEAEntreFechas(): ?stdClass
     {
@@ -133,7 +133,7 @@ class Wsmtxca extends InvoiceWebService
      * Permite consultar un comprobante con items ya emitido.
      *
      * @throws WsException
-     * @throws \Multinexo\Exceptions\ValidationException
+     * @throws \Maperx\Exceptions\ValidationException
      */
     public function getInvoice(): stdClass
     {

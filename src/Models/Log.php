@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Models;
+namespace Maperx\Models;
 
 class Log
 {
@@ -22,8 +23,7 @@ class Log
 
     public static function debug(string $text): void
     {
-        $fc = self::$log_function ?? function (string $text): void {
-        };
+        $fc = self::$log_function ?? function (string $text): void {};
         $fc($text);
     }
 }

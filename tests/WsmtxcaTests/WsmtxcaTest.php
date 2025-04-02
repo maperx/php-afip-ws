@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -11,16 +12,16 @@ declare(strict_types=1);
 namespace Tests\WsmtxcaTests;
 
 use Mockery;
-use Multinexo\Objects\ItemObject;
-use Multinexo\Objects\SubtotalesIvaObject;
-use Multinexo\WSMTXCA\Wsmtxca;
+use Maperx\Objects\ItemObject;
+use Maperx\Objects\SubtotalesIvaObject;
+use Maperx\WSMTXCA\Wsmtxca;
 use stdClass;
 use Tests\InvoiceTestTrait;
 use Tests\TestAfipCase;
 
 /**
  * @internal
- * @covers \Multinexo\WSMTXCA\Wsmtxca
+ * @covers \Maperx\WSMTXCA\Wsmtxca
  */
 final class WsmtxcaTest extends TestAfipCase
 {
@@ -272,7 +273,7 @@ final class WsmtxcaTest extends TestAfipCase
         $this->assertTrue(true);
 
         return;
-        $this->expectException(\Multinexo\Exceptions\WsException::class);
+        $this->expectException(\Maperx\Exceptions\WsException::class);
         $this->expectExceptionMessage('Para la CUIT, Tipo de Comprobante y Punto de Ventas requeridos ' .
             'no se registran comprobantes en las bases del Organismo');
 

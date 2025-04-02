@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Maperx\Models;
 
-use Multinexo\Exceptions\WsException;
-use Multinexo\WSFE\Wsfe;
-use Multinexo\WSMTXCA\Wsmtxca;
-use Multinexo\WSMTXCA\WsParametros as WsmtxcaParameters;
-use Multinexo\WSPN3\Wspn3;
+use Maperx\Exceptions\WsException;
+use Maperx\WSFE\Wsfe;
+use Maperx\WSMTXCA\Wsmtxca;
+use Maperx\WSMTXCA\WsParametros as WsmtxcaParameters;
+use Maperx\WSPN3\Wspn3;
 use stdClass;
 
 class AfipWebService

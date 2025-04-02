@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Maperx\AfipInvoices;
 
-use Multinexo\AfipValues\IvaConditionCodes;
-use Multinexo\AfipValues\UnitSizeCodes;
+use Maperx\AfipValues\IvaConditionCodes;
+use Maperx\AfipValues\UnitSizeCodes;
 
 /**
  * @deprecated

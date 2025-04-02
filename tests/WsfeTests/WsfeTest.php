@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,19 +11,19 @@ declare(strict_types=1);
 
 namespace Tests\WsfeTests;
 
-use Multinexo\Exceptions\ValidationException;
-use Multinexo\Exceptions\WsException;
-use Multinexo\Objects\AssociatedDocumentObject;
-use Multinexo\Objects\InvoiceObject;
-use Multinexo\Objects\SubtotalesIvaObject;
-use Multinexo\WSFE\Wsfe;
+use Maperx\Exceptions\ValidationException;
+use Maperx\Exceptions\WsException;
+use Maperx\Objects\AssociatedDocumentObject;
+use Maperx\Objects\InvoiceObject;
+use Maperx\Objects\SubtotalesIvaObject;
+use Maperx\WSFE\Wsfe;
 use stdClass;
 use Tests\InvoiceTestTrait;
 use Tests\TestAfipCase;
 
 /**
  * @internal
- * @covers \Multinexo\WSFE\Wsfe
+ * @covers \Maperx\WSFE\Wsfe
  */
 final class WsfeTest extends TestAfipCase
 {
@@ -276,7 +277,7 @@ final class WsfeTest extends TestAfipCase
         $this->expectException(WsException::class);
         $this->expectExceptionMessage(
             'Fecha de envío podrá ser desde 5 días corridos anteriores al inicio hasta el último dia de cada quincena.'
-            . ' Del 3/11/2016 hasta 3/31/2016'
+                . ' Del 3/11/2016 hasta 3/31/2016'
         );
 
         $datos = new stdClass();

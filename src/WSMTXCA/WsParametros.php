@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Maperx\WSMTXCA;
 
-use Multinexo\Exceptions\ManejadorResultados;
+use Maperx\Exceptions\ManejadorResultados;
 use stdClass;
 
 class WsParametros

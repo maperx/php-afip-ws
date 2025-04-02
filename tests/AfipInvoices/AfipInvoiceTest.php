@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,13 +11,13 @@ declare(strict_types=1);
 
 namespace Tests\AfipInvoices;
 
-use Multinexo\AfipInvoices\AfipDetail;
-use Multinexo\AfipInvoices\AfipInvoice;
-use Multinexo\AfipValues\IvaConditionCodes;
+use Maperx\AfipInvoices\AfipDetail;
+use Maperx\AfipInvoices\AfipInvoice;
+use Maperx\AfipValues\IvaConditionCodes;
 use Tests\TestAfipCase;
 
 /**
- * @covers \Multinexo\AfipInvoices\AfipInvoice
+ * @covers \Maperx\AfipInvoices\AfipInvoice
  *
  * @internal
  */

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,12 +11,12 @@ declare(strict_types=1);
 
 namespace Tests\ModelTests;
 
-use Multinexo\Models\CSRFile;
+use Maperx\Models\CSRFile;
 use Tests\TestAfipCase;
 
 /**
  * @internal
- * @covers \Multinexo\Models\CSRFile
+ * @covers \Maperx\Models\CSRFile
  */
 final class CsrFileTest extends TestAfipCase
 {

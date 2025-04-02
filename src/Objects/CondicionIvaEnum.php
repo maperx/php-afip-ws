@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Objects;
+namespace Maperx\Objects;
 
 class CondicionIvaEnum
 {

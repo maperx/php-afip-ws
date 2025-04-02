@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Maperx\Models;
 
-use Multinexo\Exceptions\ValidationException;
-use Multinexo\Objects\InvoiceObject;
-use Multinexo\Objects\WebServiceEnum;
-use Multinexo\WSMTXCA\Wsmtxca;
-use Multinexo\WSMTXCA\WsParametros;
+use Maperx\Exceptions\ValidationException;
+use Maperx\Objects\InvoiceObject;
+use Maperx\Objects\WebServiceEnum;
+use Maperx\WSMTXCA\Wsmtxca;
+use Maperx\WSMTXCA\WsParametros;
 use Respect\Validation\Exceptions\NestedValidationException;
 use Respect\Validation\Validator as v;
 use stdClass;

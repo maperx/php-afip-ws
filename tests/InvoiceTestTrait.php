@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,7 +11,7 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use Multinexo\Objects\InvoiceObject;
+use Maperx\Objects\InvoiceObject;
 
 trait InvoiceTestTrait
 {

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,12 +11,12 @@ declare(strict_types=1);
 
 namespace Tests\Wspn3Tests;
 
-use Multinexo\WSPN3\Wspn3;
+use Maperx\WSPN3\Wspn3;
 use Tests\TestAfipCase;
 
 /**
  * @internal
- * @covers \Multinexo\WSPN3\Wspn3
+ * @covers \Maperx\WSPN3\Wspn3
  */
 final class Wspn3Test extends TestAfipCase
 {

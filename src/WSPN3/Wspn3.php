@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Maperx\WSPN3;
 
-use Multinexo\Auth\Authentication;
-use Multinexo\Exceptions\ManejadorResultados;
-use Multinexo\Exceptions\WsException;
-use Multinexo\Models\AfipConfig;
+use Maperx\Auth\Authentication;
+use Maperx\Exceptions\ManejadorResultados;
+use Maperx\Exceptions\WsException;
+use Maperx\Models\AfipConfig;
 use stdClass;
 
 class Wspn3

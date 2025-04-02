@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -10,14 +11,14 @@ declare(strict_types=1);
 
 namespace Tests\AfipInvoices;
 
-use Multinexo\AfipInvoices\AfipInvoice;
-use Multinexo\AfipInvoices\AfipInvoiceTranslator;
-use Multinexo\AfipValues\IvaConditionCodes;
-use Multinexo\AfipValues\ReceiptCodes;
+use Maperx\AfipInvoices\AfipInvoice;
+use Maperx\AfipInvoices\AfipInvoiceTranslator;
+use Maperx\AfipValues\IvaConditionCodes;
+use Maperx\AfipValues\ReceiptCodes;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Multinexo\AfipInvoices\AfipInvoiceTranslator
+ * @covers \Maperx\AfipInvoices\AfipInvoiceTranslator
  *
  * @internal
  */

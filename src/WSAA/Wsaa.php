@@ -11,9 +11,9 @@ declare(strict_types=1);
 
 namespace Maperx\WSAA;
 
-use Multinexo\Exceptions\WsException;
-use Multinexo\Models\GeneralHelper;
-use Multinexo\Models\Validaciones;
+use Maperx\Exceptions\WsException;
+use Maperx\Models\GeneralHelper;
+use Maperx\Models\Validaciones;
 use SimpleXMLElement;
 use SoapClient;
 use stdClass;

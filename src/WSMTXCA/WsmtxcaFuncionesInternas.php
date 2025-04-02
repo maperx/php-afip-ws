@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,11 +9,11 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\WSMTXCA;
+namespace Maperx\WSMTXCA;
 
-use Multinexo\Exceptions\ManejadorResultados;
-use Multinexo\Exceptions\WsException;
-use Multinexo\Objects\InvoiceObject;
+use Maperx\Exceptions\ManejadorResultados;
+use Maperx\Exceptions\WsException;
+use Maperx\Objects\InvoiceObject;
 use stdClass;
 
 trait WsmtxcaFuncionesInternas

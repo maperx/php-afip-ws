@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Copyright (C) 1997-2020 Reyesoft <info@reyesoft.com>.
  *
@@ -8,10 +9,8 @@
 
 declare(strict_types=1);
 
-namespace Multinexo\Exceptions;
+namespace Maperx\Exceptions;
 
 use Exception;
 
-class WsException extends Exception
-{
-}
+class WsException extends Exception {}

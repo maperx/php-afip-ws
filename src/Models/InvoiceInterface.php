@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Maperx\Models;
 
-use Multinexo\Objects\InvoiceResultObject;
+use Maperx\Objects\InvoiceResultObject;
 use stdClass;
 
 interface InvoiceInterface
