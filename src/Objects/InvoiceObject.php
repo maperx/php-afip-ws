@@ -38,6 +38,8 @@ class InvoiceObject extends DocumentObject
     public $codigoMoneda = 'PES';
     /** @var int */
     public $cotizacionMoneda = 1;
+    /** @var int */
+    public $condicionIVAReceptorId;    
     /** @var string */
     public $fechaServicioDesde;
     /** @var string */

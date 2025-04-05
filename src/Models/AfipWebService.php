@@ -23,7 +23,7 @@ class AfipWebService
     /** @var stdClass */
     private $service;
 
-    public static function setConfig(AfipConfig $afipConfig = null): array
+    public static function setConfig(AfipConfig $afipConfig): array
     {
         $newConf = [
             'cuit' => $afipConfig->cuit ?? null,
@@ -67,7 +67,7 @@ class AfipWebService
                     && $serverStatus->dbserver === 'OK';
 
                 break;
-            case 'wsfe':
+            //case 'wsfe':
             default:
                 $serverStatus = Wsfe::dummy($client);
 

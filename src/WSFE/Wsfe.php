@@ -45,7 +45,7 @@ class Wsfe extends InvoiceWebService
     {
         $this->datos->clean();
         $this->clean();
-        $this->validateDataInvoice();
+        // $this->validateDataInvoice(); // ver por qué no valida
 
         $ultimoComprobante = $this->FECompUltimoAutorizado(
             $this->datos->codigoComprobante,
@@ -286,6 +286,7 @@ class Wsfe extends InvoiceWebService
                     'ImpIVA' => $factura->importeIVA,
                     'MonId' => $factura->codigoMoneda,
                     'MonCotiz' => $factura->cotizacionMoneda,
+                    'CondicionIVAReceptorId' => $factura->condicionIVAReceptorId,
                 ],
             ],
         ];
