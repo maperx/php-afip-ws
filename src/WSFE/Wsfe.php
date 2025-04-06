@@ -319,11 +319,11 @@ class Wsfe extends InvoiceWebService
         $arrayOtrosTributos = [];
         foreach ($invoice->arrayOtrosTributos as $tributo) {
             $arrayOtrosTributos[] = [
-                'Id' => $tributo->codigoTributo,
-                'Desc' => $tributo->descripcion,
-                'BaseImp' => $tributo->baseImponible,
-                'Alic' => $tributo->alicuota,
-                'Importe' => $tributo->importe,
+                'Id' => $tributo['codigoTributo'],
+                'Desc' => $tributo['descripcion'],
+                'BaseImp' => $tributo['baseImponible'],
+                'Alic' => $tributo['alicuota'],
+                'Importe' => $tributo['importe'],
             ];
         }
         if (count($arrayOtrosTributos) > 0) {
